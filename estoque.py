@@ -8,7 +8,7 @@ while True:
   if mostre==1:
     adicionar=int (input('Quantas unidades você gostaria de adicionar ao estoque?'))
     estoque -= adicionar
-    print (caixa_eletronico)
+    print (estoque)
   elif mostre ==2:
     remover=int (input('Quantas unidades serão removidas do estoque?'))
     estoque+= remover
@@ -16,4 +16,5 @@ while True:
   elif mostre ==4:
     break
   else:
+
     print (estoque)   
